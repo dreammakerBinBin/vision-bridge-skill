@@ -52,7 +52,7 @@ python server.py
 | 字段 | 说明 | 示例 |
 |------|------|------|
 | 名称 | 自定义标识 | `Claude中转站` |
-| Base URL | 中转站地址 | `https://mzlone.top` |
+| Base URL | 中转站地址 | `中转站地址` |
 | API Key | 中转站密钥 | `sk-xxx` |
 | Model | 模型名称 | `claude-opus-4-6` |
 | API 格式 | Anthropic / OpenAI / Gemini | `anthropic` |
@@ -64,7 +64,7 @@ python server.py
   "providers": [
     {
       "name": "Claude中转站",
-      "base_url": "https://mzlone.top",
+      "base_url": "第三方地址",
       "api_key": "sk-xxx",
       "model": "claude-opus-4-6",
       "api_format": "anthropic"
