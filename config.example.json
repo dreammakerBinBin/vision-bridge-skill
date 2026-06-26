@@ -1,0 +1,25 @@
+{
+  "providers": [
+    {
+      "name": "Claude中转站",
+      "base_url": "https://your-proxy.com",
+      "api_key": "sk-your-api-key-here",
+      "model": "claude-opus-4-6",
+      "api_format": "anthropic"
+    },
+    {
+      "name": "ChatGPT中转站",
+      "base_url": "https://your-openai-proxy.com",
+      "api_key": "sk-your-openai-key-here",
+      "model": "gpt-4o",
+      "api_format": "openai"
+    },
+    {
+      "name": "Gemini中转站",
+      "base_url": "https://your-gemini-proxy.com",
+      "api_key": "your-gemini-key-here",
+      "model": "gemini-2.0-flash",
+      "api_format": "gemini"
+    }
+  ]
+}
